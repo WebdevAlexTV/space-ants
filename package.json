@@ -1,0 +1,19 @@
+{
+    "name": "space-ants",
+    "version": "1.0.0",
+    "description": "Space ants is a game for the Weekly Game Jam - Week 255",
+    "author": "Webdevalex",
+    "license": "MIT",
+    "scripts": {
+        "dev": "npx webpack --config webpack.config.js",
+        "watch": "npx webpack --config webpack.config.js --watch"
+    },
+    "devDependencies": {
+        "copy-webpack-plugin": "^9.1.0",
+        "webpack": "^5.64.3",
+        "webpack-cli": "^4.7.2"
+    },
+    "dependencies": {
+        "kaboom": "^2000.2.9"
+    }
+}
